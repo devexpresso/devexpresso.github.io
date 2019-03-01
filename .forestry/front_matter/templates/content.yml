@@ -4,4 +4,5 @@ hide_body: false
 is_partial: false
 fields: []
 pages:
+- ContainerizationBootcamp/training.md
 - content.md
