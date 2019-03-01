@@ -31,6 +31,20 @@ Open PowerShell in Administrative mode
 
 ![](/uploads/minikube-start.jpg)
 
+**Verify kubectl pods are running**
+
+    kubectl get pods -n kube-system
+
+![](/uploads/kubectl-pods-running-locally.jpg)
+
+**View minikube dashboard**
+
+    minikube dashboard
+
+![](/uploads/minikube-dashboard.jpg)
+
+![](/uploads/minikube-dashboard1.jpg)
+
 **Stop minikube**
 
     minikube stop
