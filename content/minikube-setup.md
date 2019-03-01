@@ -1,4 +1,5 @@
 ---
+published: false
 
 ---
 **Configure Local Kubernetes Cluster having Single Node**
