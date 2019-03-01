@@ -4,5 +4,6 @@ hide_body: false
 is_partial: false
 fields: []
 pages:
+- ContainerizationBootcamp/lab/minikube.md
 - ContainerizationBootcamp/training.md
 - content.md
