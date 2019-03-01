@@ -48,3 +48,5 @@ Open PowerShell in Administrative mode
 **Stop minikube**
 
     minikube stop
+
+![](/uploads/minikube-stop.jpg)
