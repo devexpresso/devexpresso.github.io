@@ -6,7 +6,7 @@ date: 2019-03-01 17:08:21 +0000
 
 ### Setting up local Kubernetes Cluster
 
-[Hands On Labs](https://devexpresso.github.io/ContainerizationBootcamp/lab/minikube.md "Hands On Labs")
+[Hands On Labs](https://devexpresso.github.io/ContainerizationBootcamp/lab/minikube "Hands On Labs")
 
 Tutorials
 
