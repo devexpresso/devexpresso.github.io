@@ -1,7 +1,17 @@
-Open PowerShell in Administrative mode
+---
 
-Install Chocolatey 
-Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+---
+**Configure Local Kubernetes Cluster having Single Node**
+
+In order to configure a local Kubernetes Cluster, we need to install minikube which has only one node.
+
+Following are the steps to configure the cluster - 
+
+1. Open PowerShell in Administrative mode
+2. Install Chocolatey
+   
+
+   Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
 Install minikube
 choco install minikube
