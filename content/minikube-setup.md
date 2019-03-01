@@ -5,22 +5,26 @@
 
 In order to configure a local Kubernetes Cluster, we need to install minikube which has only one node.
 
-Following are the steps to configure the cluster - 
+Following are the steps to configure the cluster
 
-1. Open PowerShell in Administrative mode
-2. Install Chocolatey
-   
+Open PowerShell in Administrative mode
 
-   Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+**Install Chocolatey**
 
-Install minikube
-choco install minikube
+    Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
-Install Kubernetes-cli
-choco install kubernetes-cli
+**Install minikube**
 
-Start minikube
-minikube start --vm-driver hyperv --hyperv-virtual-switch "Primary Virtual Switch"
+    choco install minikube
 
-Stop minikube
-minikube stop
+**Install Kubernetes-cli**
+
+    choco install kubernetes-cli
+
+**Start minikube**
+
+    minikube start --vm-driver hyperv --hyperv-virtual-switch "Primary Virtual Switch"
+
+**Stop minikube**
+
+    minikube stop
