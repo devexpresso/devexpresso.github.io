@@ -1,7 +1,7 @@
 ---
 
 ---
-**Configure Local Kubernetes Cluster having Single Node**
+### **Configure Local Kubernetes Cluster having Single Node**
 
 In order to configure a local Kubernetes Cluster, we need to install minikube which has only one node.
 
