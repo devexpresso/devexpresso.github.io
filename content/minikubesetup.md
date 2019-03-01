@@ -17,13 +17,19 @@ Open PowerShell in Administrative mode
 
     choco install minikube
 
+![](/uploads/minikube-install.jpg)
+
 **Install Kubernetes-cli**
 
     choco install kubernetes-cli
 
+![](/uploads/kubernetes-cli-install.jpg)
+
 **Start minikube**
 
     minikube start --vm-driver hyperv --hyperv-virtual-switch "Primary Virtual Switch"
+
+![](/uploads/minikube-start.jpg)
 
 **Stop minikube**
 
