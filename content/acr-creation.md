@@ -12,7 +12,6 @@ published: false
 
 * Create the resource group if not created
 
-  [dashboard-developer-tools-696x360.png?zoom=1.25&fit=696%2C360&ssl=1](https://i0.wp.com/devexpresso.com/wp-content/uploads/2017/11/dashboard-developer-tools-696x360.png?zoom=1.25&fit=696%2C360&ssl=1 "dashboard-developer-tools-696x360.png?zoom=1.25&fit=696%2C360&ssl=1")
-* 
+  ![](/uploads/acr_creation_portal-1.jpg)
 
 #### Using PowerShell
