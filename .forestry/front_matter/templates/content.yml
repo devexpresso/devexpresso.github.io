@@ -1,9 +1,9 @@
 ---
 label: content
 hide_body: false
-is_partial: false
 fields: []
 pages:
+- content/acr-creation.md
 - ContainerizationBootcamp/lab/minikube.md
 - ContainerizationBootcamp/training.md
 - content.md
