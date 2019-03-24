@@ -35,21 +35,21 @@ published: false
 
 ##### Login to Azure Account
 
-* Open Windows PowerShell in Admin mode
-* Run below command to login to your azure account
+* Open **Windows PowerShell** in **Admin mode**
+* Run below command to **login** to your azure account
 
-  az login
+      az login
 * Once you logged in, you can find the subscription name as highlighted here
 
 ![](/uploads/az_login.jpg)
 
-* Set to a default subscription that you would like to work with
+* **Set** to a **default subscription** that you would like to work with
 
-  az account set --subscription "subscription name"
-* Use the following command to create the resource group based on your selected location
+      az account set --subscription "subscription name"
+* Use the following command to **create** the **resource group** based on your selected location
 
-  az group create --location "southcentralus" --name "containerdemoRG"
+      az group create --location "southcentralus" --name "containerdemoRG"
 
 ![](/uploads/az_resource_group_creation.jpg)
 
-* 
+* Use the command to create **Container Registry** under the resource group that we have created
