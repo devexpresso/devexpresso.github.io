@@ -15,4 +15,12 @@ published: false
 #### Using PowerShell
 
 * Open Windows PowerShell in Admin mode
-* 
+* Run below command to login to your azure account
+
+    az login
+
+* Once you logged in, you can find the subscription name here
+
+* Set to a default subscription that you would like to work with
+
+    az account set --subscription "subscription name"
