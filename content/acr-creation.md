@@ -28,3 +28,9 @@ published: false
 * Set to a default subscription that you would like to work with
 
     az account set --subscription "subscription name"
+
+* Use the following command to create the resource group based on your selected location
+
+    az group create --location "southcentralus" --name "containerdemoRG"
+
+![](/uploads/az_resource_group_creation.jpg)
