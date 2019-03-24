@@ -34,3 +34,5 @@ published: false
     az group create --location "southcentralus" --name "containerdemoRG"
 
 ![](/uploads/az_resource_group_creation.jpg)
+
+* 
