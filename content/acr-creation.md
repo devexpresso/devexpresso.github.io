@@ -8,10 +8,11 @@ published: false
 #### Using Azure Portal
 
 * Login to [https://portal.azure.com](https://portal.azure.com "azure portal") using your azure account
-
-
 * Create the resource group if not created
 
   ![](/uploads/acr_creation_portal-1.jpg)
 
 #### Using PowerShell
+
+* Open Windows PowerShell in Admin mode
+* 
