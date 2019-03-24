@@ -13,7 +13,7 @@ published: false
 ![](/uploads/portal_resource_group_creation.png)
 
 * Open the **Resource Group**, click **Add** and search for **Container Registry** from the azure market place
-* Click **Create** 
+* Click **Create**
 
 ![](/uploads/portal_acr_create_screen.png)
 
@@ -25,7 +25,9 @@ published: false
 
 ![](/uploads/portal_registry_dashboard.png)
 
-* Browse the **Access keys** and copy the 
+* Browse the **Access keys** and remember the **Registry Name** and **Login Server**
+
+![](/uploads/portal_acr_registry_keys.png)
 
 ### Using PowerShell
 
