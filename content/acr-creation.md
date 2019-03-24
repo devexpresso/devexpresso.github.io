@@ -13,7 +13,9 @@ published: false
 ![](/uploads/portal_resource_group_creation.png)
 
 * Open the **Resource Group**, click **Add** and search for **Container Registry** from the azure market place
-* Click **Create** to 
+* Click **Create** 
+
+![](/uploads/portal_acr_create_screen.png)
 
 ### Using PowerShell
 
