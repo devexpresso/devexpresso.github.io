@@ -29,6 +29,8 @@ published: false
 
 ![](/uploads/portal_acr_registry_keys.png)
 
+* Your registry is ready for use
+
 ### Using PowerShell
 
 ##### Login to Azure Account
