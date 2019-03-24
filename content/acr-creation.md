@@ -25,6 +25,8 @@ published: false
 
 ![](/uploads/portal_registry_dashboard.png)
 
+* Browse the **Access keys** and copy the 
+
 ### Using PowerShell
 
 ##### Login to Azure Account
