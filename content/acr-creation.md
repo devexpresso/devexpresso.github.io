@@ -17,6 +17,10 @@ published: false
 
 ![](/uploads/portal_acr_create_screen.png)
 
+* In the creation screen of ACR, provide the **Registry Name** followed by the **Resource Group** that we have created. Your Subscription Name and Location Id will be the same where the resource group has been created. Let the **Admin User** be **Disable** and SKU as **Standard**.
+
+![](/uploads/az_acr_creation.png)
+
 ### Using PowerShell
 
 ##### Login to Azure Account
