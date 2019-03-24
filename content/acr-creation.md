@@ -21,6 +21,10 @@ published: false
 
 ![](/uploads/az_acr_creation.png)
 
+* Once the registry has been deployed, you can view the dashboard of the registry. Pin it if you would like to do so.
+
+![](/uploads/portal_registry_dashboard.png)
+
 ### Using PowerShell
 
 ##### Login to Azure Account
