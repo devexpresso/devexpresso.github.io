@@ -21,4 +21,10 @@ published: false
 
 ![](/uploads/docker_quickstart.png)
 
+* Run docker hello world in interactive shell
+
+      $ docker run hello-world
+
+![](/uploads/docker_hello_world.png)
+
   
