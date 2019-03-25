@@ -23,3 +23,9 @@ published: false
       docker-compose up -d
 
 ![](/uploads/docker_compose.png)
+
+* Once image building is succeeded, verify that you have the images using the below command
+
+      docker images -a
+
+![](/uploads/docker_list_images.png)
