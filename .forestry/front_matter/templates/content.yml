@@ -3,7 +3,7 @@ label: content
 hide_body: false
 fields: []
 pages:
-- content/docker-install.md
+- content/dockerinstall.md
 - content/acr-creation.md
 - ContainerizationBootcamp/lab/minikube.md
 - ContainerizationBootcamp/training.md
