@@ -42,4 +42,10 @@ published: false
 
       PS C:\> docker run hello-world
 
+![](/uploads/docker_hello_world1.png)
+
+* If you get any error of not able to pull image or something like that, then check your proxy settings which might be blocking downloading the images.
+
+That's it. You are good to go with docker installation
+
   
