@@ -1,6 +1,5 @@
 ---
 date: 2019-03-18 18:09:20 +0000
-published: false
 
 ---
 # Create Azure Container Registry
@@ -53,3 +52,11 @@ published: false
 ![](/uploads/az_resource_group_creation.jpg)
 
 * Use the command to create **Container Registry** under the resource group that we have created
+
+      az acr create --resource-group containerdemoRG --name containerdemoregistry --sku Basic
+
+![](/uploads/cli_acr_create-1.png)
+
+* You can view the container registry in portal now.
+
+![](/uploads/portal_registry_dashboard.png)
