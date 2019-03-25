@@ -11,3 +11,14 @@ published: false
 * Install will add **Docker GUI**, **Oracle Virtual Box** and **Docker Quickstart**
 
 ![](/uploads/docker_toolbox_install.png)
+
+* Validate **Enable Virtualization** in **BIOS** is **Enabled**.
+* Uncheck **Windows Hypervisor Platform** from **Windows Features**
+
+![](/uploads/hyperv_install.png)
+
+* Restart the machine and Run **Docker Quickstart**
+
+![](/uploads/docker_quickstart.png)
+
+  
