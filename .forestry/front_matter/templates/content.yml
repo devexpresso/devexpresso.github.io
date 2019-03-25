@@ -3,6 +3,7 @@ label: content
 hide_body: false
 fields: []
 pages:
+- content/dockerbuild.md
 - content/acisetup.md
 - content/dockerinstall.md
 - content/acr-creation.md
