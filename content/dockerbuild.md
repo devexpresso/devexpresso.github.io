@@ -18,7 +18,7 @@ published: false
 
 ![](/uploads/browse_solution_dir.png)
 
-* Run the following command to build the image of the application **eShopOnWeb**
+* Run the following command to build the image of the application **eShopOnWeb** and run it's container image
 
       docker-compose up -d
 
@@ -29,3 +29,13 @@ published: false
       docker images -a
 
 ![](/uploads/docker_list_images.png)
+
+* Verify that the container image is running
+
+      docker ps -a
+
+![](/uploads/docker_container.png)You will also find the **Container ID**, **Image Name**, and **Port number (5106)** that will be associated to your localhost for the running container.
+
+* Browse the URL with **localhost:5106** or **127.0.0.1:5106** and verify that you are able to run the application
+
+![](/uploads/docker_container_running.png)
