@@ -27,4 +27,19 @@ published: false
 
 ![](/uploads/docker_hello_world.png)
 
+### For Windows 10 Professional/Enterprise
+
+* Download **Docker Community Edition Installer** from the given [location](https://hub.docker.com/editions/community/docker-ce-desktop-windows "docker download")
+* After you install docker, you will be able to view the docker desktop
+
+![](/uploads/docker_desktop.png)
+
+* You can switch the containers like from Linux to Windows and vice-versa
+
+![](/uploads/docker_switch_containers.png)
+
+* Open **Windows Powershell** in Admin Mode and type the docker command for hello world to test that docker commands are working fine
+
+      PS C:\> docker run hello-world
+
   
