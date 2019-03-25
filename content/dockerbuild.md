@@ -18,4 +18,8 @@ published: false
 
 ![](/uploads/browse_solution_dir.png)
 
-* Run the following command to build the image of the application **eShopOnWeb** from Microsoft Git source.
+* Run the following command to build the image of the application **eShopOnWeb**
+
+      docker-compose up -d
+
+![](/uploads/docker_compose.png)
