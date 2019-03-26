@@ -9,6 +9,8 @@ published: false
 >
 > This tutorial is going to use the same ASP.NET Core shopping application demonstrated by Microsoft.
 
+### Build And Run Container
+
 * Download the **eShopOnWeb** solution from the following Microsoft Git source [https://github.com/dotnet-architecture/eShopOnWeb](https://github.com/dotnet-architecture/eShopOnWeb "https://github.com/dotnet-architecture/eShopOnWeb"). Please don't clone the repo as it is the proprietary of Microsoft
 
 ![](/uploads/eshopweb_github_repo.png)
