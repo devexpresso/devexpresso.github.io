@@ -102,4 +102,18 @@ If you wish to stop the container, use the command
 
     docker stop 4cb67b37b257
 
-* 
+* List all images available
+
+      docker images -a
+
+![](/uploads/docker_list_images1.png)
+
+* List all dangling images (layers of the image which has no relationship to other tagged images)
+
+      docker images -f dangling=true
+
+![](/uploads/docker_dangling_images.png)
+
+* Remove all dangling images found
+
+      docker images -f dangling=true
