@@ -41,3 +41,5 @@ published: false
 * Browse the URL with **localhost:5106** or **127.0.0.1:5106** and verify that you are able to run the application
 
 ![](/uploads/docker_container_running.png)
+
+### Playing with Docker Commands
