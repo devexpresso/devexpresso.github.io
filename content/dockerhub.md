@@ -23,10 +23,8 @@ date: 2019-03-26 04:53:46 +0000
 
 * Login to docker using the below command
 
-      docker login -u <docker hub username> -p <password>
-
-
-* Tag the latest docker image with a format representing **<dockerhubusername>/<respositoryname>:<imagename>**
+      docker login -u {docker hub username} -p {password}
+* Tag the latest docker image with a format representing **{dockerhubusername}/{respositoryname}:{imagename}**
 
       docker tag 540de844697e devexpresso/containerdemo:eshopwebmvc
 
