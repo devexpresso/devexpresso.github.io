@@ -43,3 +43,11 @@ published: false
 ![](/uploads/docker_container_running.png)
 
 ### Playing with Docker Commands
+
+##### A little with docker hello world
+
+* Pull docker image for hello-world from docker repository
+
+      docker pull hello-world
+
+![](/uploads/docker_pull_helloworld.png)
