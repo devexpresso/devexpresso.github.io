@@ -126,3 +126,38 @@ If you wish to stop the container, use the command
       docker tag  2b987c40890b untagged:none
 
 ![](/uploads/docker_tag_image.png)
+
+* Remove the container
+
+      docker rm 4cb67b37b257
+
+
+* Check the docker-compose.yml file which has **environment variable** and the **ports** details.
+
+      version: '3'
+      
+      services:
+        eshopwebmvc:
+          image: eshopwebmvc
+          build:
+            context: .
+            dockerfile: src/Web/Dockerfile
+          environment:
+            - ASPNETCORE_ENVIRONMENT=Development
+          ports:
+            - "5106:80" # the aspnetcore container sets 80 as the default port
+
+
+* Run the following command to create a running container from the eshopwebmvc image
+
+      docker run -e ASPNETCORE_ENVIRONMENT=Development -p localhost:1506 eshopwebmvc
+
+
+* Verify the container is running
+
+      docker ps -a
+
+
+* Browse the URL http://localhost:5106 to see the application running
+
+![](/uploads/docker_container_running.png)
