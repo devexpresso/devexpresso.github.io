@@ -1,6 +1,5 @@
 ---
 date: 2019-03-25 12:25:06 +0000
-published: false
 
 ---
 # Building Docker Image
