@@ -83,3 +83,23 @@ published: false
 ![](/uploads/docker_delete_helloworld_image.png)
 
 ##### Working with eShopOnWeb Image and Container
+
+* Get list of containers available
+
+      docker ps -a
+
+![](/uploads/docker_list_containers.png)
+
+* Since our eShopOnWeb Container image is not running, let us start the container based on container id
+
+      docker start 4cb67b37b257
+
+![](/uploads/docker_start_container.png)
+
+![](/uploads/docker_running_container.png)
+
+If you wish to stop the container, use the command 
+
+    docker stop 4cb67b37b257
+
+* 
