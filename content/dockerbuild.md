@@ -114,6 +114,6 @@ If you wish to stop the container, use the command
 
 ![](/uploads/docker_dangling_images.png)
 
-* Remove all dangling images found
+* Remove all dangling images found based on the image id
 
-      docker images -f dangling=true
+      docker rmi 04a91531c5c7
