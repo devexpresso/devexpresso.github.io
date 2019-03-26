@@ -119,3 +119,10 @@ If you wish to stop the container, use the command
       docker rmi 04a91531c5c7
 
 ![](/uploads/docker_delete_dangling_images.png)
+
+* List all the images and you should be having only those images that are required.
+* Tag one of the docker image which has no tag
+
+      docker tag  2b987c40890b untagged:none
+
+![](/uploads/docker_tag_image.png)
