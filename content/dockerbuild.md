@@ -51,3 +51,27 @@ published: false
       docker pull hello-world
 
 ![](/uploads/docker_pull_helloworld.png)
+
+* Find image by image name
+
+      docker images hello-world
+
+![](/uploads/docker_find_helloworld_image.png)
+
+* Run the hello-world container from the image created
+
+      docker run hello-world
+
+![](/uploads/docker_run_helloworld_image.png)
+
+* Validate hello world container image has been created
+
+      docker ps -a
+
+![](/uploads/docker_helloworld_container.png)
+
+* Delete the hello world container based on the container id
+
+      docker rm 647f70421642
+
+![](/uploads/docker_delete_helloworld_container.png)
