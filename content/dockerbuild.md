@@ -75,3 +75,9 @@ published: false
       docker rm 647f70421642
 
 ![](/uploads/docker_delete_helloworld_container.png)
+
+* Delete the docker image of hello world
+
+      docker rmi hello-world
+
+![](/uploads/docker_delete_helloworld_image.png)
