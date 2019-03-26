@@ -2,7 +2,7 @@
 date: 2019-03-26 04:53:46 +0000
 
 ---
-# Docker Hub
+# Publish Docker Image to Docker Hub
 
 * Create an account in [https://hub.docker.com](https://hub.docker.com)
 * Once you have successfully have signed in to docker hub, select **Create Repository**
