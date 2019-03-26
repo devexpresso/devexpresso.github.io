@@ -4,3 +4,5 @@ published: false
 
 ---
 # Publish Docker Image to Azure Container Registry
+
+### Create Service Principal
