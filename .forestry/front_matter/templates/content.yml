@@ -3,6 +3,7 @@ label: content
 hide_body: false
 fields: []
 pages:
+- content/acrdocker.md
 - content/dockerhub.md
 - _posts/BootCamp/bootcamp.md
 - content.md
