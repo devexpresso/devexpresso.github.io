@@ -3,6 +3,7 @@ label: content
 hide_body: false
 fields: []
 pages:
+- content.md
 - content/dockerhub.md
 - content/dockerbuild.md
 - content/acisetup.md
@@ -10,4 +11,3 @@ pages:
 - content/acr-creation.md
 - ContainerizationBootcamp/lab/minikube.md
 - ContainerizationBootcamp/training.md
-- content.md
