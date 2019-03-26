@@ -81,3 +81,5 @@ published: false
       docker rmi hello-world
 
 ![](/uploads/docker_delete_helloworld_image.png)
+
+##### Working with eShopOnWeb Image and Container
