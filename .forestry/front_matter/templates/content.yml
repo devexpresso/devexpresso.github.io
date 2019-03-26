@@ -3,6 +3,7 @@ label: content
 hide_body: false
 fields: []
 pages:
+- content/dockerhub.md
 - content/dockerbuild.md
 - content/acisetup.md
 - content/dockerinstall.md
