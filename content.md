@@ -19,4 +19,11 @@ date: 2019-03-01 07:51:20 +0000
 
 ##### Day 3 (Labs)
 
-* [Publishing Image to Azure Container Registry](https://devexpresso.github.io/content/acrdocker "acrpublish")
+* [Pueblishing Image to Azure Container Registry](https://devexpresso.github.io/content/acrdocker "acrpublish")
+* Setup And Deploy Docker Image to Azure Container Instance (ACI)
+* Setup Azure Kubernetes Service (AKS)
+
+##### Day 4 (Labs)
+
+* Deploy Docker Image from ACR to AKS using Azure CLI
+* Creating DevOps project to build CI/CD pipeline for Containerization
