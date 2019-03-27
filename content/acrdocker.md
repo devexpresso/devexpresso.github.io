@@ -73,3 +73,35 @@ published: false
 ![](/uploads/acr_service_principal_verify.png)
 
 ### Publish docker image to registry
+
+* Get your available docker images
+
+      docker images -a
+
+![](/uploads/docker_image_list.png)
+
+* Tag the image that is highlighted in the above snapshot in the following format _{registry login server}/{image name}_
+
+      docker tag eshopwebmvc containerdemoregistry.azurecr.io/eshopwebmvc
+
+
+* Verify that you have the new tagged image
+
+      docker images -a
+
+![](/uploads/docker_tagged_image_list.png)
+
+* Login to azure container registry
+
+      az acr login --name containerdemoregistry
+
+
+* Run the below command to push the image to azure container registry that we have created. 
+
+      docker push containerdemoregistry.azurecr.io/eshopwebmvc
+
+![](/uploads/docker_push_acr.png)
+
+* Navigate to Azure portal and verify that you have the resource in the rergistry
+
+![](/uploads/acr_image.png)
