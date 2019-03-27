@@ -21,6 +21,14 @@ published: false
 
 ![](/uploads/portal_app_creation.png)
 
+* Once the application has been registered, **Application ID** created is your **Service Principal Id (Tenant Id)**.
+
+![](/uploads/portal_app_id.png)
+
+* Click **Settings** and add a key whose value will be the password for the service principal
+
+![](/uploads/portal_app_key.png)
+
 * Open your **subscription** and select **Access control (IAM)** tab.
 
 ![](/uploads/portal_iam_creation.png)
