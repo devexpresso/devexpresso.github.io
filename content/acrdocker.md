@@ -25,4 +25,13 @@ published: false
 
 ![](/uploads/portal_iam_creation.png)
 
+* Add **Contributor** role to your registered app that you have created.
+
+![](/uploads/portal_add_role.png)
+
+* 
+
+* 
+*  
+
 * 
