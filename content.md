@@ -15,3 +15,5 @@ date: 2019-03-01 07:51:20 +0000
 [Publishing Image to Docker Hub](https://devexpresso.github.io/content/dockerhub "Docker Hub")
 
 [Setup Azure Container Registry](https://devexpresso.github.io/content/acr-creation "Setting up Azure Container Registry")
+
+[Publishing Image to Azure Container Registry](https://devexpresso.github.io/content/acrdocker "acrpublish")
