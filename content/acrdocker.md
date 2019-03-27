@@ -13,4 +13,8 @@ published: false
 
 ![](/uploads/azure_active_directory.png)
 
+* Register an app by selecting **App Registrations** from the Manage section of Active Directory dashboard and clicking **New application registration**.
+
+![](/uploads/app_registration_dashboard.png)
+
 * 
