@@ -3,12 +3,12 @@ label: content
 hide_body: false
 fields: []
 pages:
+- content/acisetup.md
 - content.md
 - content/acrdocker.md
 - content/dockerhub.md
 - _posts/BootCamp/bootcamp.md
 - content/dockerbuild.md
-- content/acisetup.md
 - content/dockerinstall.md
 - content/acr-creation.md
 - ContainerizationBootcamp/lab/minikube.md
