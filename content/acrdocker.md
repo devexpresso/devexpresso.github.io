@@ -39,6 +39,10 @@ published: false
 
 ##### Using Azure CLI
 
+* Login to azure account
+* 
+
+
 * 
 *  
 
