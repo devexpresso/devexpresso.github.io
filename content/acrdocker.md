@@ -37,7 +37,7 @@ published: false
 
 ![](/uploads/portal_add_role.png)
 
-* 
+##### Using Azure CLI
 
 * 
 *  
