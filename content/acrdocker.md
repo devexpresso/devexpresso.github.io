@@ -39,11 +39,37 @@ published: false
 
 ##### Using Azure CLI
 
-* Login to azure account
-* 
+* Login to azure accountry
+
+      az login
 
 
-* 
-*  
+* Get full Id of azure container registry that you have created earlier. Here **"containerdemoregistry"** is my registry name
 
-* 
+      az acr show --name containerdemoregistry --query id --output tsv
+
+![](/uploads/get_acr_id.png)
+
+* Copy the long output that you see to your notepad, as we need this Id.
+* Create **Service Principal** and get it's password which requires permission to push and pull images from container registry. In the command we need to provide a **service principal name (**e.g. it can be anything like **containerdemo)**, the full **registry Id** that we just got and the **access rights** **(e.g.** in our case it will be **acrpush)** that we need to push and pull images from the registry.
+
+  Change the value of registry id followed by **--scope** in the below command with the proper one that you have.
+
+      az ad sp create-for-rbac --name "containerdemo" --scope /subscriptions/{azure subscription id}/resourceGroups/containerdemoRG/providers/Microsoft.ContainerRegistry/registries/containerdemoregistry --role acrpush --query password --output tsv
+
+![](/uploads/acr_create_service_principal.png)
+
+* Copy the output which gives you the service principal password.
+* Run the below command to get the **Tenant Id** or the **Application Id** that will get registered for this Service Principal.
+
+      az ad sp show --id http://containerdemo --query appId --output tsv
+
+> Here the Id will be specified as http:// since this will specify the Sign On URL.
+
+![](/uploads/get_acr_app_id.png)
+
+* Verify that you have the application registered in the name **containerdemo** as we have created and the application Id matches. Also do check that we have a key generated which has the password we got.
+
+![](/uploads/acr_service_principal_verify.png)
+
+### Publish docker image to registry
