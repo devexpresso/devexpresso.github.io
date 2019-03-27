@@ -2,18 +2,18 @@
 date: 2019-03-01 07:51:20 +0000
 
 ---
-## Technical Content
+# Technical Content
 
-#### Containerization Boot Camp
+### Containerization Boot Camp Labs
 
-[Install Docker](https://devexpresso.github.io/content/dockerinstall "Install Docker")
+##### Day 1 (Labs)
 
-[minikube setup](https://devexpresso.github.io/content/minikubesetup "minikube setup")
+* [Install Docker](https://devexpresso.github.io/content/dockerinstall "Install Docker")
+* [Configure Local Kubernetes Cluster Having Single Node](https://devexpresso.github.io/content/minikubesetup "minikube")
 
-[Build and Run Docker Image Container](https://devexpresso.github.io/content/dockerbuild "Docker Build")
+##### Day 2 (Labs)
 
-[Publishing Image to Docker Hub](https://devexpresso.github.io/content/dockerhub "Docker Hub")
-
-[Setup Azure Container Registry](https://devexpresso.github.io/content/acr-creation "Setting up Azure Container Registry")
-
-[Publishing Image to Azure Container Registry](https://devexpresso.github.io/content/acrdocker "acrpublish")
+* [Build and Run Docker Image Container](https://devexpresso.github.io/content/dockerbuild "Docker Build")
+* [Publishing Image to Docker Hub](https://devexpresso.github.io/content/dockerhub "Docker Hub")
+* [Setup Azure Container Registry](https://devexpresso.github.io/content/acr-creation "Setting up Azure Container Registry")
+* [Publishing Image to Azure Container Registry](https://devexpresso.github.io/content/acrdocker "acrpublish")
