@@ -16,6 +16,17 @@ published: false
 
 ![](/uploads/portal_aks_basic_creation_screen.png)
 
+* Click **Review + create**
+* In the next screen provide the information about the authentication process as shown below
+
+![](/uploads/portal_aks_create_authenticate.png)
+
+* Next click **Review + create** and let the validation get passed through post which you need to click the **Create** button to initiate the setup of the cluster.
+
+![](/uploads/portal_aks_create_final_validation-1.png)
+
+* Your cluster should be available by now.
+
 ### Create AKS cluster using Azure CLI
 
 * Open **Windows Powershell** in Admin mode
@@ -31,9 +42,6 @@ published: false
 * Validate your subscription is in the current context
 
       az account show
-* Get the Container Registry ID in full format
-
-      az acr show --resource-group containerdemoRG --name containerdemoregistry --query "id" --output tsv
 * Check all the roles you have
 
       az role assignment list --all
