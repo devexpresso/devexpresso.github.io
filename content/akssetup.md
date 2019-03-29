@@ -40,6 +40,8 @@ published: false
 
       az group create --name AKSdemoRG --location eastus
 
+![](/uploads/aks_install.png)
+
 * You might be having the application Id and password we have generated for our Service Principal during ACR lab. If you don't have that, please follow that lab to ensure you have these values as we need them in order to create the AKS cluster
 
       az aks create --resource-group AKSdemoRG --name AKScontainerdemo --node-count 1 --service-principal 72d537b4-430c-4787-9779-9bc3d45b1747 --client-secret 5abc17e8-9e92-47ad-b54e-8d3fd3ffe604 --generate-ssh-keys
