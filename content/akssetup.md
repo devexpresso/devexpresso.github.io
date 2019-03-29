@@ -38,3 +38,5 @@ published: false
 
       az aks create --resource-group AKSdemoRG --name AKScontainerdemo --node-count 1 --service-principal 72d537b4-430c-4787-9779-9bc3d45b1747 --client-secret 5abc17e8-9e92-47ad-b54e-8d3fd3ffe604 --generate-ssh-keys
 * In the above command the **service principal** is the Application Id and **client secret** is the password
+
+![](/uploads/aks_create.png)
