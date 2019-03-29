@@ -40,3 +40,11 @@ published: false
 * In the above command the **service principal** is the Application Id and **client secret** is the password
 
 ![](/uploads/aks_create.png)
+
+* Install Azure Kubernetes CLI
+
+      az aks install-cli
+
+![](/uploads/install_aks_cli.png)
+
+* 
