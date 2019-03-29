@@ -13,6 +13,9 @@ published: false
 * Login to your azure account
 
       az login
+
+![](/uploads/az_login.png)
+
 * If you have more than 1 subscription, then set the subscription which you are going to use to the current context
 
       az account set --subscription "Visual Studio Enterprise"
@@ -57,4 +60,8 @@ published: false
 
 ![](/uploads/connect_kubectl.png)
 
-* 
+* Verify the availability of the cluster nodes
+
+      kubectl get pods
+
+![](/uploads/kubectl_nodes.png)
