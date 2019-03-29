@@ -7,6 +7,15 @@ published: false
 
 ### Create AKS cluster using Portal
 
+* Login to [https://portal.azure.com](https://portal.azure.com "azure portal") and create a separate resource group very specific to AKS pointing to eastus location since AKS is only available for very specific location.
+* From the dashboard, click **Create a resource** and select **Kubernetes Service**.
+
+![](/uploads/portal_aks_select_screen.png)
+
+* Provide the basic configuration to create the cluster in the setup wizard
+
+![](/uploads/portal_aks_basic_creation_screen.png)
+
 ### Create AKS cluster using Azure CLI
 
 * Open **Windows Powershell** in Admin mode
