@@ -52,3 +52,9 @@ published: false
 ![](/uploads/azure_kubectl_path.png)
 
 * Configure **kubectl** to connect to Kubernetes Cluster
+
+      az aks get-credentials --resource-group AKSdemoRG --name AKScontainerdemo
+
+![](/uploads/connect_kubectl.png)
+
+* 
