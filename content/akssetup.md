@@ -50,3 +50,5 @@ published: false
 * Based on the output as shown above, copy the path where azure kubectl is installed in your environment variables.
 
 ![](/uploads/azure_kubectl_path.png)
+
+* Configure **kubectl** to connect to Kubernetes Cluster
