@@ -79,3 +79,33 @@ In our previous lab, we had already went through the exercise of publishing a co
       docker images -a
 
 ![](/uploads/docker_images_available.png)
+
+* Delete all the images listed here. If you have other images, then be sure to delete only the ones related to eShopWebMvc
+* To stop and delete all containers and images, run the below command
+
+      docker system prune
+
+
+* Validate if images are still available
+
+      docker images -a
+
+
+* Validate if any container are running
+
+      docker ps -a
+
+![](/uploads/docker_images_available1.png)
+
+* If any container are running for eshopwebmvc, stop and then delete the container
+
+      docker stop 46debf421e7d
+      docker rm 46debf421e7d
+
+![](/uploads/docker_container_remove.png)
+
+* Remove the docker images
+
+      docker rmi f4c627534f95
+
+![](/uploads/docker_image_remove.png)
