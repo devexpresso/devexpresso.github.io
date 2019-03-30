@@ -228,4 +228,26 @@ In our previous lab, we had already went through the exercise of publishing a co
 
 ![](/uploads/aks_dashboard.png)
 
-* You should be able to browse the public IP for the eshopweb application
+* Run the following command to get the service details
+
+      kubectl get service eshopwebmvc-kub-app --watch
+
+![](/uploads/aks_get_service.png)
+
+* Run the command to get the pods
+
+      kubectl get pods
+
+![](/uploads/aks_get_pods.png)
+
+* Run the command to get the service detail
+
+      kubectl get service eshopwebmvc
+
+![](/uploads/aks_get_service_running.png)
+
+* Now take the external IP as highlighted above and browse it.
+
+![](/uploads/aks_browse_app_error.png)
+
+Don't worry about the above issue. We will fix it.
