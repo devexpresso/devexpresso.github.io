@@ -69,4 +69,10 @@ In our previous lab, we had already went through the exercise of publishing a co
 
 
 * Let's go ahead and create the container image for the app.
+* Before you proceed, please ensure that your docker is running Linux container and not Windows container. Right click on the docker icon from taskbar and validate that **Switch to Windows containers...** is showing. This means currently, it is running for Linux containers.
+
+![](/uploads/docker_running_linux.png)
+
+* Open **Windows Powershell** in admin mode
+* Validate list of images available related to **eShopWebMvc**
 * 
