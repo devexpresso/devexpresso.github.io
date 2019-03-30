@@ -158,3 +158,45 @@ In our previous lab, we had already went through the exercise of publishing a co
 ![](/uploads/acr_image_verification.png)
 
 ### Deploy image from ACR to Azure Kubernetes Cluster
+
+* To deploy the image to AKS, we need to create a manifest .yml file having the details of containers, port description, api version, etc.
+
+      apiVersion: apps/v1
+      kind: Deployment
+      metadata:
+        name: eshopwebmvc
+      spec:
+        selector:
+          matchLabels: 
+            app: eshopwebmvc
+        replicas: 1
+        template:
+          metadata:
+            labels:
+              app: eshopwebmvc
+          spec:
+            containers:
+              - name: eshopwebmvc-services-app
+                image: containerdemoregistry.azurecr.io/eshopwebmvc:latest
+                ports:
+                  - containerPort: 80
+      ---
+      apiVersion: v1
+      kind: Service
+      metadata:
+          name: eshopwebmvc-kub-app
+      spec:
+        ports:
+          - name: http-port
+            port: 80
+            targetPort: 80
+        selector:
+          app: eshopwebmvc-kub-app
+        type: LoadBalancer
+
+
+* Get credentials of AKS cluster
+
+      az aks get-credentials --resource-group AKSdemoRG --name AKScontainerdemo
+
+![](/uploads/aks_credentials.png)
