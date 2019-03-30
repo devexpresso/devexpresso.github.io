@@ -134,3 +134,7 @@ In our previous lab, we had already went through the exercise of publishing a co
 ![](/uploads/docker_container_running_locally.png)
 
 ### Publish Docker image to Azure Container Registry
+
+* Tag the container image in the format <acrname>.azurecr.io/<image name>
+
+   
