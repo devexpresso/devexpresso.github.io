@@ -110,8 +110,14 @@ In our previous lab, we had already went through the exercise of publishing a co
 
 ![](/uploads/docker_image_remove.png)
 
-* Start building the images using docker compose
+* Build the services specified in docker-compose.yml file. This willl only create the docker image
+
+      docker-compose build
+
+![](/uploads/docker_compose_build.png)
+
+* Start building the container for the image
 
       docker-compose up -d
 
-![](/uploads/docker_compose-1.png)
+![](/uploads/docker_compose_up.png)
