@@ -3,6 +3,7 @@ label: content
 hide_body: false
 fields: []
 pages:
+- content/aksdeploy.md
 - content/akssetup.md
 - content/acisetup.md
 - content.md
