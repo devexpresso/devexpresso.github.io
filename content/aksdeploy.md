@@ -7,6 +7,8 @@ published: false
 
 In our previous lab, we had already went through the exercise of publishing a container image to Azure Container Registry. However, since the image was created for Windows Container, the deployment of the container image and creation of pods in Azure Kubernetes Service will fail as currently AKS only support Linux containers. Hence we will step back a while and create Linux container image and then republish it to ACR followed by deployment to AKS.
 
+### Create docker image for Linux container
+
 * Download the solution of eShopOnWeb if not done yet from the Microsoft hub [https://github.com/dotnet-architecture/eShopOnWeb](https://github.com/dotnet-architecture/eShopOnWeb "https://github.com/dotnet-architecture/eShopOnWeb")
 * Before opening the solution, do ensure that you have .NET Core 2.2 version installed as the solution has been built with this version of the framework. You can install the .NET Core version from [here](https://dotnet.microsoft.com/download/visual-studio-sdks?utm_source=getdotnetsdk&utm_medium=referral ".NET Core")
 * Open the solution and open the dockerfile for web project.
@@ -130,3 +132,5 @@ In our previous lab, we had already went through the exercise of publishing a co
 ![](/uploads/docker_container_verification.png)
 
 ![](/uploads/docker_container_running_locally.png)
+
+### Publish Docker image to Azure Container Registry
