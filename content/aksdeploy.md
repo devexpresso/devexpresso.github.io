@@ -121,3 +121,12 @@ In our previous lab, we had already went through the exercise of publishing a co
       docker-compose up -d
 
 ![](/uploads/docker_compose_up.png)
+
+* Validate that the container is up and running
+
+      docker images -a
+      docker ps -a
+
+![](/uploads/docker_container_verification.png)
+
+![](/uploads/docker_container_running_locally.png)
