@@ -42,7 +42,30 @@ In our previous lab, we had already went through the exercise of publishing a co
 ![](/uploads/vs_docker_file_option.png)
 
 * This will rename your existing dockerfile and generate a new dockerfile for you.
+* You can find the difference with the new dockerfile that got created
+
+      FROM microsoft/dotnet:2.2-aspnetcore-runtime AS base
+      WORKDIR /app
+      EXPOSE 80
+      EXPOSE 443
+      
+      FROM microsoft/dotnet:2.2-sdk AS build
+      WORKDIR /src
+      COPY ["src/Web/Web.csproj", "src/Web/"]
+      COPY ["src/ApplicationCore/ApplicationCore.csproj", "src/ApplicationCore/"]
+      COPY ["src/Infrastructure/Infrastructure.csproj", "src/Infrastructure/"]
+      RUN dotnet restore "src/Web/Web.csproj"
+      COPY . .
+      WORKDIR "/src/src/Web"
+      RUN dotnet build "Web.csproj" -c Release -o /app
+      
+      FROM build AS publish
+      RUN dotnet publish "Web.csproj" -c Release -o /app
+      
+      FROM base AS final
+      WORKDIR /app
+      COPY --from=publish /app .
+      ENTRYPOINT ["dotnet", "Web.dll"]
+
+
 * 
-
-
-* This will rename your 
