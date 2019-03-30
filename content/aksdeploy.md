@@ -200,3 +200,32 @@ In our previous lab, we had already went through the exercise of publishing a co
       az aks get-credentials --resource-group AKSdemoRG --name AKScontainerdemo
 
 ![](/uploads/aks_credentials.png)
+
+* Launch deployment using kubectl and manifest yaml file
+
+      kubectl create -f eshopwebmvc.yaml
+
+![](/uploads/aks_deployment.png)
+
+* Browse AKS console with a local proxy 
+
+      az aks browse --resource-group AKSdemoRG --name AKScontainerdemo
+
+![](/uploads/aks_browse.png)
+
+* This will automatically open the browser with http://127.0.0.1:8001   which will display the Kubernetes dashboard.
+* If you encounter any error like the one shown below, it might be because you have enabled RBAC during the creation of cluster
+
+![](/uploads/aks_dashboard_forbidden_error.png)
+
+* Create a **ClusterRoleBinding** which will provide access to the service account.
+
+      kubectl create clusterrolebinding kubernetes-dashboard --clusterrole=cluster-admin --serviceaccount=kube-system:kubernetes-dashboard
+
+![](/uploads/aks_clusterrolebinding.png)
+
+* Now if you browse again, you should be able to see the dashboard without any issues
+
+![](/uploads/aks_dashboard.png)
+
+* You should be able to browse the public IP for the eshopweb application
