@@ -75,4 +75,7 @@ In our previous lab, we had already went through the exercise of publishing a co
 
 * Open **Windows Powershell** in admin mode
 * Validate list of images available related to **eShopWebMvc**
-* 
+
+      docker images -a
+
+![](/uploads/docker_images_available.png)
