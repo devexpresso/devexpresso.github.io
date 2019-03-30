@@ -141,4 +141,18 @@ In our previous lab, we had already went through the exercise of publishing a co
 
 ![](/uploads/docker_tag_image-1.png)
 
-* 
+* Authenticate to your container registry
+
+      az acr login --name containerdemoregistry
+
+![](/uploads/acr_authenticate.png)
+
+* Publish docker image to container registry
+
+      docker push containerdemoregistry.azurecr.io/eshopwebmvc:latest
+
+![](/uploads/docker_push_acr-1.png)
+
+* Verify that the repository **eshopwebmvc** is created having the image tagged as **latest,** in azure portal
+
+![](/uploads/acr_image_verification.png)
