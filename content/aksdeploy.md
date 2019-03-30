@@ -137,4 +137,8 @@ In our previous lab, we had already went through the exercise of publishing a co
 
 * Tag the container image in the format <acrname>.azurecr.io/<image name>
 
-   
+      docker tag 9f7a174cd7c9 containerdemoregistry.azurecr.io/eshopwebmvc 
+
+![](/uploads/docker_tag_image-1.png)
+
+* 
