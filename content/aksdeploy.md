@@ -68,4 +68,5 @@ In our previous lab, we had already went through the exercise of publishing a co
       ENTRYPOINT ["dotnet", "Web.dll"]
 
 
+* Let's go ahead and create the container image for the app.
 * 
