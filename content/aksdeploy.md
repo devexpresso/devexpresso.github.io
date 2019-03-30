@@ -109,3 +109,9 @@ In our previous lab, we had already went through the exercise of publishing a co
       docker rmi f4c627534f95
 
 ![](/uploads/docker_image_remove.png)
+
+* Start building the images using docker compose
+
+      docker-compose up -d
+
+![](/uploads/docker_compose-1.png)
