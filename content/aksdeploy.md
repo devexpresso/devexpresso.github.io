@@ -156,3 +156,5 @@ In our previous lab, we had already went through the exercise of publishing a co
 * Verify that the repository **eshopwebmvc** is created having the image tagged as **latest,** in azure portal
 
 ![](/uploads/acr_image_verification.png)
+
+### Deploy image from ACR to Azure Kubernetes Cluster
