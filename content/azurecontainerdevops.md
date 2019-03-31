@@ -27,3 +27,7 @@ published: false
 * Let us create a sample ASP.Net Core Hello World App
 
 ![](/uploads/cn_az_dotnetcore_app.png)
+
+* The app here is a .NET Core 2.2 version app with Docker support for Linux OS. We choose Linux OS, since AKS only support Linux containers at this moment.
+
+![](/uploads/cn_az_docker_support_app.png)
