@@ -23,3 +23,7 @@ published: false
 * Let's leave it here for now. We will go to the next step to create our .NET core sample app and dockerize it.
 
 ### Create sample .NET Core dockerized App
+
+* Let us create a sample ASP.Net Core Hello World App
+
+![](/uploads/cn_az_dotnetcore_app.png)
