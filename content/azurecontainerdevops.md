@@ -10,4 +10,6 @@ published: false
 
 ![](/uploads/cn_az_devops_organization.png)
 
-* 
+* Once the organization has been created, you will be redirected to the dashboard to create the devops project. Provide details like the one below in project creation screen.
+
+![](/uploads/cn_az_devops_project_create.png)
