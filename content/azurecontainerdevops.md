@@ -21,3 +21,5 @@ published: false
 ![](/uploads/cn_az_devops_project_dashboard.png)
 
 * Let's leave it here for now. We will go to the next step to create our .NET core sample app and dockerize it.
+
+### Create sample .NET Core dockerized App
