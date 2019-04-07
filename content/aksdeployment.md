@@ -7,4 +7,64 @@ published: false
 
 * Download the source code from [https://github.com/devexpresso/azurecontainerdemo](https://github.com/devexpresso/azurecontainerdemo "https://github.com/devexpresso/azurecontainerdemo")
 * The repository have two projects - a .NET core web app and a .NET core api built in 2.2 version of .NET core
-* 
+* The solution folder has modified version of docker-compose.yml file, since we are going to consider having environment specific docker compose file.
+
+  **Docker Compose Base File**
+
+      version: '3.4'
+      
+      services:
+        hellorworldweb:
+          build:
+            context: ..
+            dockerfile: HelloWorldContainerDemo/HelloWorldWeb/Dockerfile
+          
+        helloworldservice:
+          build:
+            context: ..
+            dockerfile: HelloWorldContainerDemo/HelloWorldService/Dockerfile
+
+  **Docker Compose for Development Environment**
+
+      version: '3.4'
+      
+      services:
+        hellorworldweb:
+          image: hellorworldwebdev
+          ports:
+            - "7002:80"
+      
+        helloworldservice:
+          image: helloworldservicedev
+          ports:
+            - "5002:80"
+
+  **Docker Compose for Staging Environment**
+
+      version: '3.4'
+      
+      services:
+        hellorworldweb:
+          image: hellorworldwebtest
+          ports:
+            - "7003:80"
+      
+        helloworldservice:
+          image: helloworldservicetest
+          ports:
+            - "5003:80"
+
+  **Docker Compose for Production Environment**
+
+      version: '3.4'
+      
+      services:
+        hellorworldweb:
+          image: hellorworldweb
+          ports:
+            - "7001:80"
+      
+        helloworldservice:
+          image: helloworldservice
+          ports:
+            - "5001:80"
