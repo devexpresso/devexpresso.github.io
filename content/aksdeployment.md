@@ -68,3 +68,6 @@ published: false
           image: helloworldservice
           ports:
             - "5001:80"
+
+
+* Delete all the images and containers related to HelloWorld app in case you have any. You can keep the base images of microsoft/dotnet.
