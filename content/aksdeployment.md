@@ -92,3 +92,19 @@ published: false
 ![](/uploads/aks_deploy_dockercompose_down.png)
 
 ### Setting up Azure Container Registry
+
+* Open Command Prompt in Administrator Mode
+* Login to azure account using azure cli
+
+      az login
+
+![](/uploads/aks_deploy_az_login.png)
+
+* If you have more than 1 azure account, set your current account to the one that you will use for this lab
+
+      az account set "Visual Studio Enterprise"
+
+
+* Verify that your current account is set properly
+
+      az account show
