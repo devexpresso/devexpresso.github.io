@@ -73,3 +73,12 @@ published: false
 * Delete all the images and containers related to HelloWorld app in case you have any. You can keep the base images of microsoft/dotnet.
 
 ![](/uploads/aks_deploy_microsoft_image_verification.png)
+
+* Build images for production. 
+* If you encounter any issue as shown below, reset your docker desktop and restart it. 
+
+![](/uploads/aks_deploy_image_issues1.png)
+
+* Once the images are successfully created, verify that the containers are running
+
+![](/uploads/aks_deploy_image_successfully_created.png)
