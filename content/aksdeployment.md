@@ -100,10 +100,12 @@ published: false
 
 * If you have more than 1 azure account, set your current account to the one that you will use for this lab
 
-      az account set "Visual Studio Enterprise"
+      az account set --subscription "Visual Studio ENterprise"
 * Verify that your current account is set properly 
 
       az account show
 * Create a resource group with location eastus (consider the location based on azure kubernetes service availability).
 
       az group create --name containerdemoRG --location eastus
+
+![](/uploads/aks_deploy_resource_group_create.png)
