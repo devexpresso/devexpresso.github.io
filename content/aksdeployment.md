@@ -82,3 +82,9 @@ published: false
 * Once the images are successfully created, verify that the containers are running
 
 ![](/uploads/aks_deploy_image_successfully_created.png)
+
+* Run the following docker compose command to stop the containers and free up the network
+
+      docker-compose down
+
+![](/uploads/aks_deploy_dockercompose_down.png)
