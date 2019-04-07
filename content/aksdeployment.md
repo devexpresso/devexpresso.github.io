@@ -116,4 +116,26 @@ y![](/uploads/aks_deploy_resource_group_create.png)
 
 ![](/uploads/aks_deploy_registry_create.png)
 
+* Login to the container registry
+
+      az acr login --name containerdemoregistry
+
+
+* Tag the docker images with container registry login server followed by image name as shown below
+
+      docker tag 31ba698c8e88 containerdemoregistry.azurecr.io/helloworldweb:V1
+      
+      docker tag 1c04909f3c62 containerdemoregistry.azurecr.io/helloworldservice:v1
+
+![](/uploads/aks_deploy_image_tag.png)
+
+* Push both the images to container registry
+
+      docker push containerdemoregistry.azurecr.io/helloworldweb:v1
+      
+      docker push containerdemoregistry.azurecr.io/helloworldservice:v1
+      
+
+![](/uploads/aks_deploy_docker_push.png)
+
 * 
