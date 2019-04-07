@@ -108,4 +108,12 @@ published: false
 
       az group create --name containerdemoRG --location eastus
 
-![](/uploads/aks_deploy_resource_group_create.png)
+y![](/uploads/aks_deploy_resource_group_create.png)
+
+* Create a Container Registry for the resource group created.
+
+      raz acr create --resource-group containerdemoRG --name containerdemoregisty --sku Basic
+
+![](/uploads/aks_deploy_registry_create.png)
+
+* 
