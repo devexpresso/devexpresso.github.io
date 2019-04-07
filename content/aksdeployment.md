@@ -150,4 +150,10 @@ y![](/uploads/aks_deploy_resource_group_create.png)
 
 ![](/uploads/aks_deploy_show_repository_tags.png)
 
+* Get the container registry resource id which we need for creating authentication rules to access the registry by other azure resources. Save it in a text file.
+
+      az acr show --resource-group containerdemoRG --name containerdemoregistry --query "id" --output tsv
+
+![](/uploads/aks_deploy_acr_id_show.png)
+
 * 
