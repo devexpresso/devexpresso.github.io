@@ -3,6 +3,7 @@ label: content
 hide_body: false
 fields: []
 pages:
+- content/aksdeployment.md
 - content/azurecontainerdevops.md
 - content/aksdeploy.md
 - content/akssetup.md
