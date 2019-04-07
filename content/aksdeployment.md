@@ -70,14 +70,12 @@ published: false
           image: helloworldservice
           ports:
             - "5001:80"
-
-
 * Delete all the images and containers related to HelloWorld app in case you have any. You can keep the base images of microsoft/dotnet.
 
 ![](/uploads/aks_deploy_microsoft_image_verification.png)
 
-* Build images for production. 
-* If you encounter any issue as shown below, reset your docker desktop and restart it. 
+* Build images for production.
+* If you encounter any issue as shown below, reset your docker desktop and restart it.
 
 ![](/uploads/aks_deploy_image_issues1.png)
 
@@ -103,8 +101,9 @@ published: false
 * If you have more than 1 azure account, set your current account to the one that you will use for this lab
 
       az account set "Visual Studio Enterprise"
-
-
-* Verify that your current account is set properly
+* Verify that your current account is set properly 
 
       az account show
+* Create a resource group with location eastus (consider the location based on azure kubernetes service availability).
+
+      az group create --name containerdemoRG --location eastus
