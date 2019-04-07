@@ -138,4 +138,16 @@ y![](/uploads/aks_deploy_resource_group_create.png)
 
 ![](/uploads/aks_deploy_docker_push.png)
 
+* Review the list of repository created from the images in container registry
+
+      az acr repository list --name containerdemoregistry --output table
+
+![](/uploads/aks_deploy_show_repository.png)
+
+* Show the list of image tags available specific to a repository in container registry
+
+      az acr repository show-tags --name containerdemoregistry --repository helloworldweb --output table
+
+![](/uploads/aks_deploy_show_repository_tags.png)
+
 * 
