@@ -5,6 +5,8 @@ published: false
 ---
 # Docker Container Image Creation to Deployment to Azure Kubernetes Cluster
 
+### Building docker images
+
 * Download the source code from [https://github.com/devexpresso/azurecontainerdemo](https://github.com/devexpresso/azurecontainerdemo "https://github.com/devexpresso/azurecontainerdemo")
 * The repository have two projects - a .NET core web app and a .NET core api built in 2.2 version of .NET core
 * The solution folder has modified version of docker-compose.yml file, since we are going to consider having environment specific docker compose file.
@@ -88,3 +90,5 @@ published: false
       docker-compose down
 
 ![](/uploads/aks_deploy_dockercompose_down.png)
+
+### Setting up Azure Container Registry
