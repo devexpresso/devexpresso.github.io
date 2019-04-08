@@ -162,4 +162,8 @@ y![](/uploads/aks_deploy_resource_group_create.png)
 
 ![](/uploads/aks_deploy_ad_create_rbac.png)
 
-* 
+* Assign a **role** to the **service principal** created for both pushing and pulling images from container registry within the scope of the container registry only
+
+      az role assignment create --assignee 8b8faba8-b4d0-40dc-a293-b50590008d38 --scope /subscriptions/94e96215-c87d-4548-819f-8c29436c44db/resourceGroups/containerdemoRG/providers/Microsoft.ContainerRegistry/registries/containerdemoregistry --role acrpush
+
+![](/uploads/aks_deploy_role_assignment.png)
