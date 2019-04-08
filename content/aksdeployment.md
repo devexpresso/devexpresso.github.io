@@ -268,3 +268,6 @@ y![](/uploads/aks_deploy_resource_group_create.png)
        - port: 80
        selector:
         app: helloworldservice
+
+
+* 
