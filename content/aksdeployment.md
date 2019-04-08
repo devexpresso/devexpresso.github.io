@@ -200,6 +200,8 @@ y![](/uploads/aks_deploy_resource_group_create.png)
 
 ![](/uploads/aks_deploy_clusterrolebinding-1.png)
 
+* 
+
 * Create the Kubernetes Manifest *.yaml file
 
       apiVersion: extensions/v1beta1
