@@ -161,3 +161,5 @@ y![](/uploads/aks_deploy_resource_group_create.png)
       az ad sp create-for-rbac -n "ContainerApp" --skip-assignment
 
 ![](/uploads/aks_deploy_ad_create_rbac.png)
+
+* 
