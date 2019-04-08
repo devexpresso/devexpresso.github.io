@@ -200,9 +200,13 @@ y![](/uploads/aks_deploy_resource_group_create.png)
 
 ![](/uploads/aks_deploy_clusterrolebinding-1.png)
 
-* 
+* Create a ACR image pull secret key that will hold the authorization to pull images from ACR by AKS
 
-* Create the Kubernetes Manifest *.yaml file
+      kubectl create secret docker-registry acr-auth --docker-server containerdemoregistry.azurecr.io --docker-username 8b8faba8-b4d0-40dc-a293-b50590008d38 --docker-password 79aa0209-6dec-4966-980a-a05c4b2d364a --docker-email joydeep.ghosh@us.sogeti.com
+
+![](/uploads/aks_deploy_acr_auth.png)
+
+* Create the Kubernetes Manifest *.yaml file. Have a close look into the file and also verify that **imagePullSecret** is added with the authentication key you have just created
 
       apiVersion: extensions/v1beta1
       kind: Deployment
