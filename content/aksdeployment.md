@@ -188,4 +188,10 @@ y![](/uploads/aks_deploy_resource_group_create.png)
 
 ![](/uploads/aks_deploy_merge_aks_credentials.png)
 
+* Verify the AKS nodes are available
+
+      kubectl get nodes
+
+![](/uploads/aks_deploy_get_nodes.png)
+
 * 
