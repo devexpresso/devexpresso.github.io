@@ -276,4 +276,8 @@ y![](/uploads/aks_deploy_resource_group_create.png)
 
 ![](/uploads/aks_deploy_images.png)
 
-* 
+* Verify the pods are successfully installed and services are up and running
+
+      kubectl get pods
+      
+      kubectl get services
