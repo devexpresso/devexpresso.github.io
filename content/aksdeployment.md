@@ -176,4 +176,6 @@ y![](/uploads/aks_deploy_resource_group_create.png)
 
 ![](/uploads/aks_deploy_aks_creation.png)
 
-* Install Azure Kubernetes CLI 
+* Install Azure Kubernetes CLI which will help to connect kubectl (kubernetes command line client) interact with AKS
+
+      az aks install-cli
