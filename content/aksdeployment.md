@@ -156,4 +156,4 @@ y![](/uploads/aks_deploy_resource_group_create.png)
 
 ![](/uploads/aks_deploy_acr_id_show.png)
 
-* 
+* Create a **Service Principal** which will provide a **Service Principal ID** (App ID) and **Client Secret** (Password) that will be used 
