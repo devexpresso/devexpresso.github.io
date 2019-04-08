@@ -200,4 +200,65 @@ y![](/uploads/aks_deploy_resource_group_create.png)
 
 ![](/uploads/aks_deploy_clusterrolebinding-1.png)
 
-* 
+* Create the Kubernetes Manifest *.yaml file
+
+      apiVersion: extensions/v1beta1
+      kind: Deployment
+      metadata:
+       name: helloworldwebapp
+      spec:
+       replicas: 1
+       template:
+        metadata:
+         labels:
+          app: helloworldwebapp
+        spec:
+         containers:
+         - name: helloworldwebapp
+           image: containerdemoregistry1.azurecr.io/helloworldwebapp:V1
+           ports:
+           - containerPort: 80
+         imagePullSecrets:
+         - name: acr-auth
+      ---
+      apiVersion: v1
+      kind: Service
+      metadata:
+       name: helloworldwebapp
+      spec:
+       type: LoadBalancer
+       ports:
+       - port: 80
+       selector:
+        app: helloworldwebapp
+      
+      ---
+      apiVersion: extensions/v1beta1
+      kind: Deployment
+      metadata:
+       name: helloworldservice
+      spec:
+       replicas: 1
+       template:
+        metadata:
+         labels:
+          app: helloworldservice
+        spec:
+         containers:
+         - name: helloworldservice
+           image: containerdemoregistry1.azurecr.io/helloworldservice:v1
+           ports:
+           - containerPort: 80
+         imagePullSecrets:
+         - name: acr-auth
+      ---
+      apiVersion: v1
+      kind: Service
+      metadata:
+       name: helloworldservice
+      spec:
+       type: LoadBalancer
+       ports:
+       - port: 80
+       selector:
+        app: helloworldservice
