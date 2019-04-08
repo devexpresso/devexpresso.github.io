@@ -169,3 +169,7 @@ y![](/uploads/aks_deploy_resource_group_create.png)
 ![](/uploads/aks_deploy_role_assignment.png)
 
 ### Setting up of Azure Kubernetes Cluster Service
+
+* Create a AKS cluster with only one node 
+
+      az aks create --resource-group containerdemoRG --name aksclusterdemo --node-count 1 --service-principal 8b8faba8-b4d0-40dc-a293-b50590008d38 --client-secret 79aa0209-6dec-4966-980a-a05c4b2d364a --generate-ssh-keys
