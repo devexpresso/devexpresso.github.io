@@ -270,4 +270,10 @@ y![](/uploads/aks_deploy_resource_group_create.png)
         app: helloworldservice
 
 
+* Run the command to pull images from ACR and deploy containers to AKS
+
+      kubectl apply -f akspod.yaml
+
+![](/uploads/aks_deploy_images.png)
+
 * 
