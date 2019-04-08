@@ -194,4 +194,6 @@ y![](/uploads/aks_deploy_resource_group_create.png)
 
 ![](/uploads/aks_deploy_get_nodes.png)
 
-* 
+* Create a clusterrolebinding for AKS to provide access to the service account
+
+      kubectl create clusterrolebinding kubernetes-dashboard --clusterrole=cluster-admin --serviceaccount=kube-system:kubernetes-dashboard
