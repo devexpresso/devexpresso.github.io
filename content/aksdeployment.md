@@ -156,4 +156,8 @@ y![](/uploads/aks_deploy_resource_group_create.png)
 
 ![](/uploads/aks_deploy_acr_id_show.png)
 
-* Create a **Service Principal** which will provide a **Service Principal ID** (App ID) and **Client Secret** (Password) that will be used 
+* Create an Active Directory **Service Principal** which will provide a **Service Principal ID** (App ID) and **Client Secret** (Password) that will authenticate AKS cluster to access ACR
+
+      az ad sp create-for-rbac -n "ContainerApp" --skip-assignment
+
+![](/uploads/aks_deploy_ad_create_rbac.png)
