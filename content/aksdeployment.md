@@ -167,3 +167,5 @@ y![](/uploads/aks_deploy_resource_group_create.png)
       az role assignment create --assignee 8b8faba8-b4d0-40dc-a293-b50590008d38 --scope /subscriptions/94e96215-c87d-4548-819f-8c29436c44db/resourceGroups/containerdemoRG/providers/Microsoft.ContainerRegistry/registries/containerdemoregistry --role acrpush
 
 ![](/uploads/aks_deploy_role_assignment.png)
+
+### Setting up of Azure Kubernetes Cluster Service
