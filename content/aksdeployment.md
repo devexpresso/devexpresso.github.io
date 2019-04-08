@@ -179,3 +179,13 @@ y![](/uploads/aks_deploy_resource_group_create.png)
 * Install Azure Kubernetes CLI which will help to connect kubectl (kubernetes command line client) interact with AKS
 
       az aks install-cli
+
+![](/uploads/aks_deploy_azure_cli.png)
+
+* Merge credentials of AKS cluster created to local config file of .kube
+
+      az aks get-credentials --resource-group containerdemoRG --name aksclusterdemo 
+
+![](/uploads/aks_deploy_merge_aks_credentials.png)
+
+* 
