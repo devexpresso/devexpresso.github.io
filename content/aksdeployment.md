@@ -194,12 +194,6 @@ y![](/uploads/aks_deploy_resource_group_create.png)
 
 ![](/uploads/aks_deploy_get_nodes.png)
 
-* Create a clusterrolebinding for AKS to provide access to the service account
-
-      kubectl create clusterrolebinding kubernetes-dashboard --clusterrole=cluster-admin --serviceaccount=kube-system:kubernetes-dashboard
-
-![](/uploads/aks_deploy_clusterrolebinding-1.png)
-
 ### Deploying Containers to AKS from ACR
 
 * Create a ACR image pull secret key that will hold the authorization to pull images from ACR by AKS
@@ -291,3 +285,19 @@ y![](/uploads/aks_deploy_resource_group_create.png)
 ![](/uploads/aks_deploy_kubectl_getservices.png)
 
 * Browse the external IP's provided in the output for both the web app and api
+
+![](/uploads/aks_deploy_webapp_output.png)
+
+![](/uploads/aks_deploy_api_output.png)
+
+* You can even browse the dashboard of the AKS cluster using the below command to create a clusterrolebinding for AKS to provide access to the service account
+
+      az aks browse --resource-group containerdemoRG --name aksclusterdemo
+
+![](/uploads/aks_deploy_dashboard_access_issue.png)
+
+* If you receive the above error in kubernetes dashboard, run the below command to fix the issue
+
+      kubectl create clusterrolebinding kubernetes-dashboard --clusterrole=cluster-admin --serviceaccount=kube-system:kubernetes-dashboard
+
+![](/uploads/aks_deploy_dashboard_fix.png)
