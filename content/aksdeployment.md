@@ -300,3 +300,5 @@ y![](/uploads/aks_deploy_resource_group_create.png)
       kubectl create clusterrolebinding kubernetes-dashboard --clusterrole=cluster-admin --serviceaccount=kube-system:kubernetes-dashboard
 
 ![](/uploads/aks_deploy_dashboard_fix.png)
+
+Hope this helps
