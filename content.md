@@ -21,7 +21,7 @@ date: 2019-03-01 07:51:20 +0000
 
 * [Publishing Image to Azure Container Registry](https://devexpresso.github.io/content/acrdocker "acrpublish")
 * [Setting up Azure Kubernetes Service (AKS)](https://devexpresso.github.io/content/akssetup "aks setup")
-* [Deploy Docker Image from ACR to AKS using Azure CLI](https://devexpresso.github.io/content/aksdeploy "aks deploy")
+* [Docker Container Image Creation to Deployment to Azure Kubernetes Cluster](https://devexpresso.github.io/content/aksdeployment "aksdeployment")
 
 ##### Day 4 (Labs)
 
