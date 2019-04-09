@@ -200,6 +200,8 @@ y![](/uploads/aks_deploy_resource_group_create.png)
 
 ![](/uploads/aks_deploy_clusterrolebinding-1.png)
 
+### Deploying Containers to AKS from ACR
+
 * Create a ACR image pull secret key that will hold the authorization to pull images from ACR by AKS
 
       kubectl create secret docker-registry acr-auth --docker-server containerdemoregistry.azurecr.io --docker-username 8b8faba8-b4d0-40dc-a293-b50590008d38 --docker-password 79aa0209-6dec-4966-980a-a05c4b2d364a --docker-email joydeep.ghosh@us.sogeti.com
@@ -221,9 +223,9 @@ y![](/uploads/aks_deploy_resource_group_create.png)
         spec:
          containers:
          - name: helloworldwebapp
-           image: containerdemoregistry1.azurecr.io/helloworldwebapp:V1
+           image: containerdemoregistry.azurecr.io/helloworldweb:V1
            ports:
-           - containerPort: 80
+           - containerPort: 8888
          imagePullSecrets:
          - name: acr-auth
       ---
@@ -252,9 +254,9 @@ y![](/uploads/aks_deploy_resource_group_create.png)
         spec:
          containers:
          - name: helloworldservice
-           image: containerdemoregistry1.azurecr.io/helloworldservice:v1
+           image: containerdemoregistry.azurecr.io/helloworldservice:v1
            ports:
-           - containerPort: 80
+           - containerPort: 5555
          imagePullSecrets:
          - name: acr-auth
       ---
@@ -279,5 +281,13 @@ y![](/uploads/aks_deploy_resource_group_create.png)
 * Verify the pods are successfully installed and services are up and running
 
       kubectl get pods
-      
+
+![](/uploads/aks_deploy_kubectl_getpods.png)
+
+* Wait for 2-3 minutes and then verify that you have external IP assigned to your services
+
       kubectl get services
+
+![](/uploads/aks_deploy_kubectl_getservices.png)
+
+* Browse the external IP's provided in the output for both the web app and api
