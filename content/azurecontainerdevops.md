@@ -22,12 +22,17 @@ published: false
 
 * Let's leave it here for now. We will go to the next step to create our .NET core sample app and dockerize it.
 
-### Create sample .NET Core dockerized App
+### Helm Setup for Apps
 
-* Let us create a sample ASP.Net Core Hello World App
+* Install Chocolatey using the below command in powershell. Close powershell.
 
-![](/uploads/cn_az_dotnetcore_app.png)
+      Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
-* The app here is a .NET Core 2.2 version app with Docker support for Linux OS. We choose Linux OS, since AKS only support Linux containers at this moment.
 
-![](/uploads/cn_az_docker_support_app.png)
+* Open command prompt in admin mode and run the following command to install kubernetes helm
+
+      choco install kubernetes-helm
+
+![](/uploads/cn_az_helm_install.png)
+
+* 
