@@ -35,4 +35,13 @@ published: false
 
 ![](/uploads/cn_az_helm_install.png)
 
-* 
+* Change your directory to the project folder of the HelloWorldWeb. Run the command to create helm chart for the project.
+
+      helm create HelloWorldWeb
+
+  ![](/uploads/cn_az_helm_chart_helloworldweb.png)
+* Similarly, change your directory to the project folder of HelloWorldService. Run the create helm chart command for the project.
+
+      helm create HelloWorldService
+
+![](/uploads/cn_az_helm_chart_helloworldservice.png)
