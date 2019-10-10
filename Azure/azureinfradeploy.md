@@ -3,7 +3,7 @@
 ---
 # Azure Infrastructure and Deployment plan
 
-### Create Azure Resource Group
+### Login to Azure Account
 
 Open **PowerShell**
 
