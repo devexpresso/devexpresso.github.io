@@ -7,6 +7,10 @@
 
 Open **PowerShell**
 
+Install Azure PowerShell using **Install-Module** command
+
+    Install-module -Name Az -AllowClobber -Scope AllUsers
+
 Login to azure account using **Add-AzureAccount**
 
     PS> Add-AzureAccount
