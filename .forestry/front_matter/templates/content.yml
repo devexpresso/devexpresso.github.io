@@ -3,9 +3,9 @@ label: content
 hide_body: false
 fields: []
 pages:
+- Azure/azureinfradeploy/createresourcegroup.md
 - Azure/azureinfradeploy.md
 - Azure/azureinfradeploy/createvnet.md
-- Azure/azureinfradeploy/createresourcegroup.md
 - _posts/BootCamp/bootcamp.md
 - content/dockerhub.md
 - content/acisetup.md
