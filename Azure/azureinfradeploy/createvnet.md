@@ -21,4 +21,4 @@ Use the command
 
      $virtualNetwork | Set-AzVirtualNetwork
 
-[Back to main content]()
+[Back to main content](https://devexpresso.github.io/Azure/azureinfradeploy "Back to main content")
