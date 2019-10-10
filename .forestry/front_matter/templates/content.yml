@@ -3,17 +3,17 @@ label: content
 hide_body: false
 fields: []
 pages:
-- content/azurecontainerdevops.md
-- content.md
-- content/aksdeployment.md
-- content/aksdeploy.md
-- content/akssetup.md
-- content/acisetup.md
-- content/acrdocker.md
-- content/dockerhub.md
 - _posts/BootCamp/bootcamp.md
+- content/dockerhub.md
+- content/acisetup.md
+- content.md
+- content/akssetup.md
+- ContainerizationBootcamp/lab/minikube.md
+- ContainerizationBootcamp/training.md
+- content/acrdocker.md
 - content/dockerbuild.md
 - content/dockerinstall.md
 - content/acr-creation.md
-- ContainerizationBootcamp/lab/minikube.md
-- ContainerizationBootcamp/training.md
+- content/azurecontainerdevops.md
+- content/aksdeployment.md
+- content/aksdeploy.md
