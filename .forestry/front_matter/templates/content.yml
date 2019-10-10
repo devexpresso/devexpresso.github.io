@@ -3,6 +3,7 @@ label: content
 hide_body: false
 fields: []
 pages:
+- Azure/azureinfradeploy/createvnet.md
 - Azure/azureinfradeploy/createresourcegroup.md
 - Azure/azureinfradeploy.md
 - _posts/BootCamp/bootcamp.md
