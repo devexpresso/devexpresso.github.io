@@ -1,5 +1,4 @@
 ---
-published: false
 
 ---
 # Azure Infrastructure and Deployment plan
