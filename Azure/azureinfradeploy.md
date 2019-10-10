@@ -5,7 +5,19 @@
 
 ### Create Azure Resource Group
 
-Login to azure account using Powershell
+Open **PowerShell**
+
+Login to azure account using **Add-AzureAccount**
+
+    PS> Add-AzureAccount
+
+Select a subscription to be the current one using **Select-AzureSubscription**
+
+    PS> Select-AzureSubscription -Current -SubscriptionName Pay-As-You-Go
+
+Validate that the subscription selected is now the default and current one using **Get-AzureSubscription**
+
+    PS> Get-AzureSubscription
 
 Use **New-AzureRmResourceGroup** cmdlet to create a new Azure resource group
 
