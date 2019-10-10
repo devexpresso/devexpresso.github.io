@@ -24,3 +24,5 @@ Validate that the subscription selected is now the default and current one using
     PS> Get-AzureSubscription
 
 **Step 1:** [Create Resource Group](https://devexpresso.github.io/Azure/azureinfradeploy/createresourcegroup "Create Resource Group")
+
+**Step 2:** [Create Virtual Network](https://devexpresso.github.io/Azure/azureinfradeploy/createvnet "Create Virtual Network")
