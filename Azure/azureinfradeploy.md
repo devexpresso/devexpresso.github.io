@@ -30,3 +30,5 @@ Verify that the default Subscription is selected using **Get-AzSubscription**
 **Step 1:** [Create Resource Group](https://devexpresso.github.io/Azure/azureinfradeploy/createresourcegroup "Create Resource Group")
 
 **Step 2:** [Create Virtual Network](https://devexpresso.github.io/Azure/azureinfradeploy/createvnet "Create Virtual Network")
+
+**Step 3:** Create Availability Set
