@@ -21,7 +21,7 @@ Get all Subscriptions available using **Get-AzSubscription**
 
 Set default context using **Set-AzContext**
 
-    PS> Set-AzContext -SubscriptId "Subscription Id"
+    PS> Set-AzContext -SubscriptionId "Subscription Id"
 
 Verify that the default Subscription is selected using **Get-AzSubscription**
 
