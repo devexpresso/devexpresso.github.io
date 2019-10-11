@@ -31,4 +31,4 @@ Verify that the default Subscription is selected using **Get-AzSubscription**
 
 **Step 2:** [Create Virtual Network](https://devexpresso.github.io/Azure/azureinfradeploy/createvnet "Create Virtual Network")
 
-**Step 3:** Create Availability Set
+**Step 3:** [Create Availability Set](https://devexpresso.github.io/Azure/azureinfradeploy/availabilityset "Create Availability Set")
