@@ -15,13 +15,17 @@ Login to azure account using **Add-AzureAccount**
 
     PS> Add-AzureAccount
 
-Select a subscription to be the current one using **Select-AzureSubscription**
+Get all Subscriptions available using **Get-AzSubscription**
 
-    PS> Select-AzureSubscription -Current -SubscriptionName Pay-As-You-Go
+    PS> Get-AzSubscription
 
-Validate that the subscription selected is now the default and current one using **Get-AzureSubscription**
+Set default context using **Set-AzContext**
 
-    PS> Get-AzureSubscription
+    PS> Set-AzContext -SubscriptId "Subscription Id"
+
+Verify that the default Subscription is selected using **Get-AzSubscription**
+
+    PS> Get-AzSubscription
 
 **Step 1:** [Create Resource Group](https://devexpresso.github.io/Azure/azureinfradeploy/createresourcegroup "Create Resource Group")
 
