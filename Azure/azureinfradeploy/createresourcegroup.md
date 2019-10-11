@@ -3,11 +3,11 @@
 ---
 # Create Azure Resource Group
 
-Use **New-AzureRmResourceGroup** cmdlet to create a new Azure resource group
+Use **New-AzResourceGroup** cmdlet to create a new Azure resource group
 
-    PS> New-AzResourceGroup -Name DemoAppRG01 -Location "South Central US"
+    PS>New-AzResourceGroup -Name DemoAppRG01 -Location "South Central US"
 
-Validate that the resource group has been created successfully using **Get-AzureRmResourceGroup**
+Validate that the resource group has been created successfully using **Get-AzResourceGroup**
 
     PS> Get-AzResourceGroup
 
