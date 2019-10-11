@@ -13,19 +13,19 @@ Install Azure PowerShell using **Install-Module** command
 
 Login to azure account using **Add-AzureAccount**
 
-    PS> Add-AzureAccount
+    Add-AzureAccount
 
 Get all Subscriptions available using **Get-AzSubscription**
 
-    PS> Get-AzSubscription
+    Get-AzSubscription
 
 Set default context using **Set-AzContext**
 
-    PS> Set-AzContext -SubscriptionId "Subscription Id"
+    Set-AzContext -SubscriptionId "Subscription Id"
 
 Verify that the default Subscription is selected using **Get-AzSubscription**
 
-    PS> Get-AzSubscription
+    Get-AzSubscription
 
 **Step 1:** [Create Resource Group](https://devexpresso.github.io/Azure/azureinfradeploy/createresourcegroup "Create Resource Group")
 
